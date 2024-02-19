@@ -15,7 +15,16 @@ function WelcomeText() {
         <p>Welcome to my site! My passion is to build amazing user interfaces.Here you can find my projects which showcase my ability!</p>
         </div>
 
+
+
     </div>
+    <div className='circles'> 
+        <div></div>
+        <div></div>
+        <div></div>
+        <span></span>
+    </div>
+
         {/* <img src={laptopImg}></img> */}
    </main>
    </>
