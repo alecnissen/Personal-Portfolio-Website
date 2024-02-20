@@ -6,19 +6,18 @@ main {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    height: 100vh;
+    // height: 100vh;
 
     .welcome-title-container { 
         display: flex;
         flex-direction: column;
-        padding: 3em;
+        // padding: 3em;
         width: 45%;
 
-        .welcome-title-text { 
-            border: 2px solid black;
-            width: 45%;
-            text-align: center;
+        .welcome-portfolio-title-text { 
+        font-size: 1rem;
         }
+       
     }
 }
 
@@ -96,3 +95,98 @@ main {
         transform: rotateZ(360deg) rotateX(66deg) rotateZ(360deg);
     }
 }
+
+
+
+@media (max-width: 1026px) { 
+    .circles { 
+        width: 200px;
+        height: 200px;
+    }
+
+    .circles-container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1em;
+    }
+}
+
+
+@media (max-width: 650px) { 
+        main { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        width: 100%;
+        text-align: center;
+        // padding: 3em;
+    }
+
+    .circles { 
+        width: 100px;
+        height: 100px;
+    }
+
+    .circles span { 
+        position: absolute;
+        left: 3.5em;
+        width: 15%;
+        height: 15%;
+    }
+
+    .welcome-portfolio-title-text h3 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // width: 100%;
+        white-space: nowrap;
+    }
+
+    .name-title-container h1{ 
+        font-size: 1.2rem;
+    }
+
+    .name-title-container p { 
+        font-size: 0.8rem;
+    }
+
+    .name-title-container { 
+        width: 100%;
+    }
+}
+
+// @media (max-width: 800px) { 
+//     main { 
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         font-size: 1em;
+//         width: 100%;
+//         padding: 3em;
+//     }
+
+
+
+//     .circles-container { 
+//         display: flex;
+
+//         .circles { 
+//             width: 25vw;
+//             height: 25vh;
+//         }
+//     }
+
+// }
+
+// @media (max-width: 560px) { 
+//     .welcome-portfolio-title-text h3 { 
+//         font-size: 2rem;
+//         width: 100%;
+//     }
+// }

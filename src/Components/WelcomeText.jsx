@@ -6,7 +6,7 @@ function WelcomeText() {
     <> 
    <main> 
     <div className='welcome-title-container'> 
-        <div className='welcome-title-text'> 
+        <div className='welcome-portfolio-title-text'> 
         <h3>Welcome to my Portfolio</h3>
         </div>
 
@@ -18,13 +18,16 @@ function WelcomeText() {
 
 
     </div>
+
+    <div className='circles-container'> 
     <div className='circles'> 
         <div></div>
         <div></div>
         <div></div>
         <span></span>
     </div>
-
+    </div>
+    
         {/* <img src={laptopImg}></img> */}
    </main>
    </>
