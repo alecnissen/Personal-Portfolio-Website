@@ -21,6 +21,10 @@ main {
     }
 }
 
+.name-title-container h1{ 
+    width: 80%;
+} 
+
 .circles { 
     width: 333px;
     height: 333px;
@@ -149,15 +153,16 @@ main {
 
     .name-title-container h1{ 
         font-size: 1.2rem;
+        width: 100%;
     }
 
     .name-title-container p { 
         font-size: 0.8rem;
     }
 
-    .name-title-container { 
-        width: 100%;
-    }
+    // .name-title-container { 
+    //     width: 100%;
+    // }
 }
 
 // @media (max-width: 800px) { 
