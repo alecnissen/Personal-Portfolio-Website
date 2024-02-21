@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.projects-section-wrapper { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects-section-wrapper h1 { 
+    text-align: center;
+}
+
+.projects-section-wrapper p { 
+    text-align: center;
+    padding: 1em;
+}
+
+.fashion-gems-demo-styles,
+.memory-card-demo-styles { 
+    width: 30em;
+}
+
+// .cv-app-container img { 
+//     height: 19em;
+// }
+
+.cv-app-container img {
+    width: 29em;
+    height: 19em;
+}
+
+.projects-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.projects-container h3 { 
+    text-align: center;
+}
+
+@media (max-width: 520px) { 
+    .fashion-gems-demo-styles,
+    .memory-card-demo-styles { 
+        width: 21em;
+    }   
+
+    .cv-app-container img { 
+        width: 21em;
+        height: 15em;
+    } 
+}

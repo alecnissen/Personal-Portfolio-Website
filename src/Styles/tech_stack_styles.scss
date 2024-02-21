@@ -45,7 +45,22 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    transform: scale(1);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    animation: fadeIn 2.5s forwards;
+    // transition: transform .4s ease-in-out;
 }
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
 @media (max-width: 1030px) { 
     .languages-container { 
