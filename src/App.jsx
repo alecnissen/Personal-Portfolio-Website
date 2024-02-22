@@ -4,6 +4,7 @@ import Header from './Components/Header'
 import TechStack from './Components/TechStack'
 import WelcomeText from './Components/WelcomeText'
 import Projects from './Components/Projects'
+import Resume from './Components/Resume'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
   <WelcomeText></WelcomeText>
   <TechStack></TechStack>
   <Projects></Projects>
+  <Resume></Resume>
     </>
   )
 }
