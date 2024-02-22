@@ -5,6 +5,7 @@ import TechStack from './Components/TechStack'
 import WelcomeText from './Components/WelcomeText'
 import Projects from './Components/Projects'
 import Resume from './Components/Resume'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   <TechStack></TechStack>
   <Projects></Projects>
   <Resume></Resume>
+  <Footer></Footer>
     </>
   )
 }
