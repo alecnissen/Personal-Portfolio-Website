@@ -55,8 +55,16 @@ function Projects() {
         </div>
 
         <div className='cv-app-container'> 
+        {/* <h3>CV/Resume Generator</h3> */}
+        <div className='modal-content-cv-app'>
+
         <h3>CV/Resume Generator</h3>
-        <img src={cvAppDemo}></img>
+
+        <button>Code</button>
+        <button>Live</button>
+
+        </div>
+        <img src={cvAppDemo} className='cv-app-demo-styles'></img>
         </div>
 
     </div>

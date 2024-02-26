@@ -1,0 +1,42 @@
+.modal-content-cv-app { 
+  visibility: hidden;
+  position: absolute;
+  top: -100%;
+  left: 30%;
+  // transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  z-index: 3;
+} 
+
+.cv-app-container:hover > .modal-content-cv-app { 
+    z-index: 3;
+    visibility: visible;
+    text-align: center;
+    animation: slideFromTop 1s ease forwards;
+}
+
+.cv-app-container:hover .cv-app-demo-styles { 
+    opacity: 0.3; /* Hide the image when hovering over the container */
+}
+
+.cv-app-container { 
+    position: relative;
+    z-index: 1;
+}
+
+.cv-app-container:hover { 
+    background-color: black;
+    transition: background-color 1s ease; 
+    z-index: 2;
+}
+
+@keyframes slideFromTop { 
+    from { 
+        top: -30%;
+    } 
+
+    to { 
+        top: 30%;
+    }
+}
