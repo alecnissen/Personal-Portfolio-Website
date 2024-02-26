@@ -41,7 +41,16 @@ function Projects() {
         </div>
 
         <div className='memory-card-container'> 
+        {/* <h3>Memory Card Game</h3> */}
+        <div className='modal-content-memory-card'>
+
         <h3>Memory Card Game</h3>
+
+          <button>Code</button>
+          <button>Live</button>
+
+        </div>
+
         <img src={memoryCardDemo} className='memory-card-demo-styles'></img>
         </div>
 
