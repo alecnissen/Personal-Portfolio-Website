@@ -6,8 +6,11 @@ import WelcomeText from './Components/WelcomeText'
 import Projects from './Components/Projects'
 import Resume from './Components/Resume'
 import Footer from './Components/Footer'
+import HoverClassProjectCards from './Components/HoverClassProjectCards'
 
 function App() {
+
+
 
   return (
     <>

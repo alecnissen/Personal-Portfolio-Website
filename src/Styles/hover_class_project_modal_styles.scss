@@ -1,0 +1,39 @@
+// .modal-styles { 
+//     position: absolute;
+//     // width: 30em;
+//     // height: 3em;
+//    top: 0; 
+//    left: 0;
+//    right: 0;
+//    background-color: blue;
+//    z-index: 10000;
+// }
+
+// .project-card-modal {
+//     visibility: visible;
+// }
+
+.modal-content { 
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    // background-color: purple;
+    // width: 30em;
+    // height: 20em;
+
+    /* apply animation so the div scrolls into view */
+} 
+
+.shopping-cart-container:hover > div { 
+    visibility: visible;
+    text-align: center;
+}
+
+.shopping-cart-container { 
+    position: relative;
+   
+}

@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import fashionGemsDemo from "../assets/fashion-gems-site-demo.png"
 import memoryCardDemo from "../assets/memory-card-cropped-2.png"
 import fashionGemsDemo from "../assets/tablet-view.png"
 import cvAppDemo from "../assets/cv-app-4.png"
+import HoverClassProjectCards from './HoverClassProjectCards';
 
 
 function Projects() {
+
+  const [show, setShow] = useState(false);
+
+
+
   return (
     <>
     <div className='projects-section-wrapper'>
@@ -15,9 +21,26 @@ function Projects() {
         </p>
 
     <div className='projects-container'> 
+    {/* Here you will conditionally render the hover class using && */}
         <div className='shopping-cart-container'> 
+        {/* <h3>FashionGems Store</h3> */}
+      <div className='modal-content'>
+
         <h3>FashionGems Store</h3>
-        <img src={fashionGemsDemo} className='fashion-gems-demo-styles'></img>
+
+        <button>Code</button>
+        <button>Live</button>
+
+      </div>
+
+        {/* {show && <HoverClassProjectCards></HoverClassProjectCards>} */}
+
+
+        <img src={fashionGemsDemo} className='fashion-gems-demo-styles'
+        //  onMouseEnter={() => setShow(true)}
+        //  onMouseLeave={() => setShow(false)}
+        
+        ></img>
 
         </div>
 
