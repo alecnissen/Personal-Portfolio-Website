@@ -21,7 +21,6 @@ function Projects() {
         </p>
 
     <div className='projects-container'> 
-    {/* Here you will conditionally render the hover class using && */}
         <div className='shopping-cart-container'> 
         {/* <h3>FashionGems Store</h3> */}
       <div className='modal-content'>
@@ -33,12 +32,9 @@ function Projects() {
 
       </div>
 
-        {/* {show && <HoverClassProjectCards></HoverClassProjectCards>} */}
 
 
         <img src={fashionGemsDemo} className='fashion-gems-demo-styles'
-        //  onMouseEnter={() => setShow(true)}
-        //  onMouseLeave={() => setShow(false)}
         
         ></img>
 
