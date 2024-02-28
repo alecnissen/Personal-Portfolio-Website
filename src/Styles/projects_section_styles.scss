@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+// .projects-container { 
+//     transform: scale(0.8);
+// }
+
 .projects-section-wrapper h1 { 
     text-align: center;
 }
@@ -35,12 +39,36 @@
     align-items: center;
     gap: 1em;
     flex-wrap: wrap;
+    opacity: 0;
 }
+
+
+
+.projects-container:focus-within .shopping-cart-container,
+.projects-container:focus-within .memory-card-container,
+.projects-container:focus-within .cv-app-container { 
+    opacity: 1;
+    animation: grow 1s ease forwards;
+} 
+
+// .projects-container:focus-within { 
+//     transform: scale(2);
+//     opacity: 1;
+// } 
+
 
 
 // .shopping-cart-container:hover { 
 //     background-color: green;
 // }
+
+
+// .projects-container:focus-within button { 
+//     animation: grow 1s ease forwards;
+// }
+
+
+
 
 @media (max-width: 520px) { 
     .fashion-gems-demo-styles,
@@ -52,4 +80,14 @@
         width: 21em;
         height: 15em;
     } 
+}
+
+@keyframes grow { 
+    0% { 
+    transform: scale(0);
+    }
+
+    100% { 
+        transform: scale(1);
+    }
 }

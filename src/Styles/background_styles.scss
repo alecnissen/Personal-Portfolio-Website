@@ -1,6 +1,8 @@
 body { 
-    background-image: url("src/assets/linear-gradient-bg-img.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: url("src/assets/linear-gradient-bg-img.jpg");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background: rgb(68,11,111);
+    background: linear-gradient(90deg, rgba(68,11,111,1) 0%, rgba(147,122,172,1) 45%, rgb(7, 47, 71) 100%);
     color: white;
 }
