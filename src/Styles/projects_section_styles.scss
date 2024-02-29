@@ -48,7 +48,7 @@
 .projects-container .memory-card-container,
 .projects-container .cv-app-container { 
     opacity: 0;
-    transition: opacity 1s ease;
+    transition: opacity 2s ease;
 } 
 
 .projects-container .shopping-cart-container.focused,
@@ -56,7 +56,7 @@
 .projects-container .cv-app-container.focused { 
     opacity: 1;
     transform: scale(1);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 2s ease, transform 2s ease;
 }
 
 // .projects-container:focus-within { 
