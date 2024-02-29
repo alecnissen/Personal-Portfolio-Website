@@ -20,7 +20,11 @@ export default function Header() {
     <button>Home</button>
     <button>Skills</button>
     <button>Projects</button>
-    <button>Resume</button>
+    <a href="#resume-section">
+    <button>Resume
+
+    </button>
+    </a>
     </div>
 
     <div className='contact-links'> 

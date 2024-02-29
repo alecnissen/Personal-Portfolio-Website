@@ -41,7 +41,7 @@ function Resume() {
     <>
     {/* <div className={`resume-content-wrapper ${show} ? 'focused' : ''}`} ref={resumeContainer}> */}
     <div className={`resume-content-wrapper ${show ? 'focused' : ''}`} ref={resumeContainer}>
-    <h1>Resume</h1>
+    <h1 id='resume-section'>Resume</h1>
     <h1>Interested in working with me?</h1>
     {/* <div className={`resume-download-container ${show ? 'focused' : ''}`} ref={resumeContainer}> */}
 
