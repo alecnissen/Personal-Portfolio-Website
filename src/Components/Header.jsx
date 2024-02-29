@@ -1,6 +1,6 @@
 import React from 'react'
-import linkedInImg from "../assets/linkedIn-portfolio.svg"
-import githubImg from "../assets/gh-icon-portfolio.svg"
+import linkedInImg from "../assets/linked-in-icon-white.png"
+import githubImg from "../assets/gh-colored-icon.png"
 
 export default function Header() {
   return (
@@ -25,12 +25,17 @@ export default function Header() {
 
     <div className='contact-links'> 
         <a href='https://www.linkedin.com/in/alec-nissen-9562a4b5/'> 
-        <img src={linkedInImg}></img>
+        {/* <img src={linkedInImg}></img> */}
+        {/* <i className="devicon-linkedin-plain"></i> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
         </a>
 
 
         <a href='https://github.com/alecnissen'> 
-        <img src={githubImg}></img>
+        <img src={githubImg} className='gh-icon-header-colored'></img>
+        
+        
+          
         </a>
 
     </div>
