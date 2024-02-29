@@ -10,6 +10,14 @@
   font-weight: 400;
   font-style: normal;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000000;
+  // background-color: darkblue;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  // opacity: .2;
+  // height: 20%;
 }
 
 .logo { 
@@ -38,12 +46,18 @@
 
 button { 
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    // font-weight: 400;
+    font-weight: bold;
     font-style: normal;
     font-size: 1.5em;
     border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    // text-decoration: underline;
   }
 }
+
 
 
 
@@ -54,14 +68,22 @@ button {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    font-size: 1rem;
+    // font-size: 0.83rem;
+    height: 9em;
   } 
 
   .nav-links { 
     width: 70%;
     
     button { 
-   font-size: 1em;
+  //  font-size: 0.83rem;
+  font-size: 1rem;
   }
+  }
+
+  .contact-links img { 
+    opacity: 0;
   }
 
 }

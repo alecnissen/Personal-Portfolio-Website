@@ -1,0 +1,9 @@
+lightweight baby, 
+
+// Change header icons to white. 
+
+// change tech stack animation so it appears only when focusedFC
+
+// add background color to resume container and box shadow 
+
+// background color for whole site
