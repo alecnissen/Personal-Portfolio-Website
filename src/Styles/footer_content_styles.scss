@@ -6,9 +6,15 @@
     justify-content: center;
     align-items: center;
     gap: 2em;
-    border: 2px solid black;
+    // border: 2px solid black;
     padding: 0.5em;
     margin-top: 2em;
+    opacity: 0;
+}
+
+.footer-content-wrapper.focused { 
+    animation: scale 1s ease;
+    opacity: 1;
 }
 
 .contact-links-container { 
@@ -26,4 +32,16 @@
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
+}
+
+
+
+@keyframes scale { 
+    0% { 
+        transform: scale(0);
+    }
+
+    100% { 
+        transform: scale(1);
+    }
 }

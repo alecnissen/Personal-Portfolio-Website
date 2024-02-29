@@ -2,11 +2,50 @@ import React from 'react'
 import linkedInImg from "../assets/linkedIn-portfolio.svg"
 import githubImg from "../assets/gh-icon-portfolio.svg"
 import gmailImg from "../assets/gmail-icon.png"
+import { useRef, useEffect, useState } from 'react'
 
 function Footer() {
+
+
+  const footerContainer = useRef(null);
+  const [show, setShow] = useState(false);
+
+  useEffect(() => { 
+    const options = { 
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5,
+    }
+
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setShow(true);
+          observer.disconnect();
+        }
+      });
+    }, options);
+
+
+    if (footerContainer.current) { 
+      observer.observe(footerContainer.current);
+    } 
+
+    return () => { 
+      if (footerContainer.current) { 
+        observer.unobserve(footerContainer.current);
+      }
+    }
+
+
+  }, [])
+
+
   return (
     <>
-    <div className='footer-content-wrapper'>
+     <div className={`footer-content-wrapper ${show ? 'focused' : ''}`} ref={footerContainer}>
+    {/* <div className='footer-content-wrapper'> */}
         <div className='contact-links-container'> 
         <a href='https://www.linkedin.com/in/alec-nissen-9562a4b5/'>
         <img src={linkedInImg}></img>
