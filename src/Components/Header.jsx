@@ -17,13 +17,17 @@ export default function Header() {
 
     
     <div className='nav-links'> 
+    <a href='#home-section'>
     <button>Home</button>
+    </a>
+    <a href='#skills-section'>
     <button>Skills</button>
+    </a>
+    <a href='#projects-section'>
     <button>Projects</button>
+    </a>
     <a href="#resume-section">
-    <button>Resume
-
-    </button>
+    <button>Resume</button>
     </a>
     </div>
 

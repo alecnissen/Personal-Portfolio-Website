@@ -45,7 +45,11 @@
     font-style: normal;
     font-size: 1.2rem;
     border-radius: 5%;
+    background-color: purple;
+    color: white;
+    border: none;
 }
+
 
 .download-icon-styles,
 .msg-icon-styles { 
@@ -62,6 +66,7 @@
     border-radius: 3%;
     width: 45%;
     height: 40%;
+    box-shadow: 0 0 20px #8e44ad, 0 0 10px #8e44ad, 0 0 38px #8e44ad;
     // opacity: 0;
     // transform: translateX(-50em);
     // animation: slideIn 2s ease;

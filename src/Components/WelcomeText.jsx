@@ -23,7 +23,7 @@ function WelcomeText() {
 
   return (
     <> 
-   <main> 
+   <main id='home-section'> 
     <div className='welcome-title-container'> 
         <div className='welcome-portfolio-title-text'> 
         <h3>Welcome to my Portfolio</h3>

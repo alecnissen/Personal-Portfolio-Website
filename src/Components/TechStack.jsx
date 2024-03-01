@@ -2,7 +2,7 @@ import React from 'react'
 
 function TechStack() {
   return (
-    <div className='tech-stack-wrapper'>
+    <div className='tech-stack-wrapper' id='skills-section'>
 
     <div className='tech-stack-container'> 
         <h1>Tech Stack</h1>

@@ -44,7 +44,7 @@ function Projects() {
   return (
     <>
     <div className='projects-section-wrapper'>
-        <h1>Projects</h1>
+        <h1 id='projects-section'>Projects</h1>
         <p>Welcome to the projects section! Here you find some of my projects that highlight my ability as a front end developer.
         Here you can see my progress, all the trial and error, and hands on learning that took place on each of these Projects! 
         </p>

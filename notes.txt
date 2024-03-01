@@ -2,14 +2,19 @@ lightweight baby,
 
 // Change header icons to white. / 
 
-// change tech stack animation so it appears only when focusedFC
+// change tech stack animation so it appears only when focusedFC, max
+       // mobile and tablet
 
-// add background color to resume container and box shadow 
+// add background color to resume container and box shadow /
 
 // background color for whole site
 
+            // background
 
-// adding the links to different parts of the page, 
+
+
+
+// adding the links to different parts of the page, /
 
 // playing around with the size of the containers, so everything is not so close  together, 
 
