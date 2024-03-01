@@ -57,6 +57,10 @@
     // transition: transform .4s ease-in-out;
 }
 
+.tech-stack-container.focused { 
+    animation: fadeIn 2s forwards;
+}
+
 .languages-container div { 
     opacity: 0;
     animation: fadeIn 1s forwards;

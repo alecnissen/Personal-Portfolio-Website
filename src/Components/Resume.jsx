@@ -52,11 +52,20 @@ function Resume() {
       <p>If you still have any questions, feel free to contact me. Additionally, you can download my resume below!</p>
       
       <div className='resume-contact-links-container'> 
+          <a href='../assets/mock-resume-portfolio.png.docx' download={true}>
         <button>
-        <img src={downloadIcon} className="download-icon-styles"></img>Download CV</button>
+        <img src={downloadIcon} className="download-icon-styles"></img>
+        Download CV
+        </button>
+        </a>
+        <a href='https://www.linkedin.com/in/alec-nissen-9562a4b5/'>
         <button>
           <img src={msgIcon} className='msg-icon-styles'></img>
-          Contact Me</button>
+          Contact Me
+        </button>
+        </a>
+
+
       </div>
       
       </div>

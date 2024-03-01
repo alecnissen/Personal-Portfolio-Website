@@ -44,7 +44,8 @@
 
 .shopping-cart-container,
 .memory-card-container,
-.cv-app-container
+.cv-app-container,
+.vault-bjj-container
  { 
     box-shadow: 0 0 10px #8e44ad, 0 0 10px #8e44ad, 0 0 28px #8e44ad;
 }
@@ -53,7 +54,8 @@
 
 .projects-container .shopping-cart-container,
 .projects-container .memory-card-container,
-.projects-container .cv-app-container { 
+.projects-container .cv-app-container,
+.projects-container .vault-bjj-container { 
     opacity: 0;
     transition: opacity 2s ease;
     
@@ -61,7 +63,8 @@
 
 .projects-container .shopping-cart-container.focused,
 .projects-container .memory-card-container.focused,
-.projects-container .cv-app-container.focused { 
+.projects-container .cv-app-container.focused,
+.projects-container .vault-bjj-container.focused { 
     opacity: 1;
     transform: scale(1);
     transition: opacity 2s ease, transform 2s ease;
@@ -88,7 +91,8 @@
 
 @media (max-width: 520px) { 
     .fashion-gems-demo-styles,
-    .memory-card-demo-styles { 
+    .memory-card-demo-styles,
+    .vault-bjj-demo-styles { 
         width: 21em;
     }   
 

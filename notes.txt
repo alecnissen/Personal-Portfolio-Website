@@ -3,19 +3,34 @@ lightweight baby,
 // Change header icons to white. / 
 
 // change tech stack animation so it appears only when focusedFC, max
-       // mobile and tablet
+       // mobile and tablet / 
 
 // add background color to resume container and box shadow /
+
+
+
+
 
 // background color for whole site
 
             // background
+
+// add 6 projects / 
+
+// download cv option 
+
+// if user presses contact me, they will be linked to linkedin page /
+
+// increase font size of p tags, header etc, 
+
+// hook up links to other projects, 
+
+// get the text centered in the modal content on hover, on mobile screens it is too far to the right, 
+
+
 
 
 
 
 // adding the links to different parts of the page, /
 
-// playing around with the size of the containers, so everything is not so close  together, 
-
-// put more space between page  elements 

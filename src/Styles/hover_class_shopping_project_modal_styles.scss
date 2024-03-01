@@ -63,4 +63,11 @@
     to { 
         top: 30%;
     }
+} 
+
+@media (max-width: 520px) { 
+    .shopping-cart-container:hover > .modal-content { 
+        position: absolute;
+        left: 5em;
+    }
 }

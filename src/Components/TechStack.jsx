@@ -1,10 +1,48 @@
-import React from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 
 function TechStack() {
+
+    const techStackContainer = useRef(null);
+    const [show, setShow] = useState(false);
+
+    useEffect(() => { 
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5,
+          };
+
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                setShow(true);
+                observer.disconnect();
+              }
+            });
+          }, options);
+
+
+          if (techStackContainer.current) {
+            observer.observe(techStackContainer.current);
+          }
+        
+          return () => {
+            if (techStackContainer.current) {
+              observer.unobserve(techStackContainer.current);
+            }
+          };
+
+    }, []);
+
+    
+
+
+
   return (
     <div className='tech-stack-wrapper' id='skills-section'>
 
-    <div className='tech-stack-container'> 
+    {/* <div className='tech-stack-container'>  */}
+    <div className={`tech-stack-container ${show} ? 'focused' : ''}`}> 
         <h1>Tech Stack</h1>
 
         <div className='languages-container'>
