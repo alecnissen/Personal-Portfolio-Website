@@ -15,59 +15,51 @@
 
 
 
-.modal-content { 
-    visibility: hidden;
-    position: absolute;
-    top: -100%;
-    left: 30%;
-    // transform: translateX(-50%);
-    text-align: center;
-    color: white;
-    z-index: 3;
-    // transition: top 1s ease transform 1s ease;
-} 
+// .modal-content { 
+//     visibility: hidden;
+//     position: absolute;
+//     top: -100%;
+//     left: 30%;
+//     text-align: center;
+//     color: white;
+//     z-index: 3;
+// } 
 
-.shopping-cart-container:hover > .modal-content { 
-    z-index: 3;
-    visibility: visible;
-    text-align: center;
-    animation: slideFromTop 1s ease forwards;
-    // background-image: url('src/assets/linear-gradient-bg-img.jpg');
-    // background-size: cover;
-    // background-repeat: no-repeat;
-}
+// .shopping-cart-container:hover > .modal-content { 
+//     z-index: 3;
+//     visibility: visible;
+//     text-align: center;
+//     animation: slideFromTop 1s ease forwards;
+// }
 
-.shopping-cart-container:hover .fashion-gems-demo-styles {
-    opacity: 0.3; /* Hide the image when hovering over the container */
-}
+// .shopping-cart-container:hover .fashion-gems-demo-styles {
+//     opacity: 0.3; /* Hide the image when hovering over the container */
+// }
 
-.shopping-cart-container { 
-    position: relative;
-    z-index: 1;
-}
+// .shopping-cart-container { 
+//     position: relative;
+//     z-index: 1;
+// }
 
-.shopping-cart-container:hover { 
-    // background-image: url('src/assets/linear-gradient-bg-img.jpg');
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    background-color: black;
-    transition: background-color 1s ease; 
-    z-index: 2;
-}
+// .shopping-cart-container:hover { 
+//     background-color: black;
+//     transition: background-color 1s ease; 
+//     z-index: 2;
+// }
 
-@keyframes slideFromTop { 
-    from { 
-        top: -30%;
-    } 
+// @keyframes slideFromTop { 
+//     from { 
+//         top: -30%;
+//     } 
 
-    to { 
-        top: 30%;
-    }
-} 
+//     to { 
+//         top: 30%;
+//     }
+// } 
 
-@media (max-width: 520px) { 
-    .shopping-cart-container:hover > .modal-content { 
-        position: absolute;
-        left: 5em;
-    }
-}
+// @media (max-width: 520px) { 
+//     .shopping-cart-container:hover > .modal-content { 
+//         position: absolute;
+//         left: 5em;
+//     }
+// }
