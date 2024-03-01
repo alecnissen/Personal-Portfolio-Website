@@ -2,35 +2,45 @@
 .modal-content-vault-bjj { 
   visibility: hidden;
   position: absolute;
-  top: -100%;
-  left: 30%;
-  // transform: translateX(-50%);
+//   top: -100%;
+//   left: 30%;
+top: 50%; /* Position at vertical center */
+left: 50%; /* Position at horizontal center */
+transform: translate(-50%, -50%); /* Center the modal content */
   text-align: center;
   color: white;
   z-index: 3;
 } 
 
-.cv-app-container:hover > .modal-content-cv-app,
-.vault-bjj-container:hover > .modal-content-vault-bjj { 
+.modal-content-cv-app button {
+    margin-top: 10px; /* Add some space above the buttons */
+    display: inline-block; /* Ensure buttons are displayed in a row */
+    margin-right: 5px; /* Add some space between buttons */
+}
+
+// .modal-content-cv-app button { 
+//     margin-top: 10px; /* Add some space above the buttons */
+//     display: flex; /* Ensure buttons are displayed in a row */
+//     margin-right: 5px; /* Add some space between buttons */
+// }
+
+.cv-app-container:hover > .modal-content-cv-app { 
     z-index: 3;
     visibility: visible;
     text-align: center;
     animation: slideFromTop 1s ease forwards;
 }
 
-.cv-app-container:hover .cv-app-demo-styles,
-.vault-bjj-container:hover .vault-bjj-demo-styles { 
+.cv-app-container:hover .cv-app-demo-styles { 
     opacity: 0.3; /* Hide the image when hovering over the container */
 }
 
-.cv-app-container,
-.vault-bjj-container { 
+.cv-app-container { 
     position: relative;
     z-index: 1;
 }
 
-.cv-app-container:hover,
-.vault-bjj-container:hover { 
+.cv-app-container:hover { 
     background-color: black;
     transition: background-color 1s ease; 
     z-index: 2;
@@ -46,10 +56,10 @@
     }
 }
 
-@media (max-width: 520px) { 
-    .cv-app-container:hover > .modal-content-cv-app { 
-        position: absolute;
-        left: 5em;
-        font-size: 1.2rem;
-    }
-}
+// @media (max-width: 520px) { 
+//     .cv-app-container:hover > .modal-content-cv-app { 
+//         position: absolute;
+//         left: 5em;
+//         font-size: 1.2rem;
+//     }
+// }
