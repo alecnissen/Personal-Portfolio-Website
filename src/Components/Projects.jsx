@@ -59,7 +59,9 @@ function Projects() {
 
         <h3>FashionGems Store</h3>
 
+        <a href='https://github.com/alecnissen/Shopping-Cart'>
         <button>Code</button>
+        </a>
         <button>Live</button>
 
       </div>
@@ -113,8 +115,12 @@ function Projects() {
 
         <h3>Memory Card Game</h3>
 
+          <a href='https://github.com/alecnissen/Memory-Card'>
           <button>Code</button>
+          </a>
+          <a href='https://memory-card-game-top.netlify.app/'>
           <button>Live</button>
+          </a>
 
         </div>
 
@@ -127,9 +133,13 @@ function Projects() {
 
         <h3>CV App</h3>
 
+        <a href='https://github.com/alecnissen/CV-App'>
         <button>Code</button>
+        </a>
+        
+        <a href='https://cv-resume-generator-top.netlify.app/'>
         <button>Live</button>
-
+        </a>
         </div>
         <img src={cvAppDemo} className='cv-app-demo-styles'></img>
         </div>
