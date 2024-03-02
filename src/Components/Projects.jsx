@@ -136,7 +136,7 @@ function Projects() {
         <a href='https://github.com/alecnissen/CV-App'>
         <button>Code</button>
         </a>
-        
+
         <a href='https://cv-resume-generator-top.netlify.app/'>
         <button>Live</button>
         </a>
@@ -149,9 +149,12 @@ function Projects() {
         <div className='modal-content-cv-app'>
 
         <h3>Todo List</h3>
-
+        <a href='https://github.com/alecnissen/to-do-list-A'>
         <button>Code</button>
+        </a>
+        <a href='https://alecnissen.github.io/to-do-list-A/'>
         <button>Live</button>
+        </a>
 
         </div>
         <img src={todoListDemo} className='cv-app-demo-styles'></img>
@@ -161,9 +164,14 @@ function Projects() {
         <div className='modal-content-cv-app'>
 
         <h3>Battleship</h3>
-
+        <a href='https://github.com/alecnissen/Battleship'>
         <button>Code</button>
+        </a>
+
+        <a href='https://alecnissen.github.io/Battleship/'>
         <button>Live</button>
+        </a>
+  
 
         </div>
         <img src={battleshipDemo} className='cv-app-demo-styles'></img>

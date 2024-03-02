@@ -7,7 +7,7 @@ lightweight baby,
 
 // add background color to resume container and box shadow /
 
-
+// add mobile responsive or desktop text in hover modal class. 
 
 
 
@@ -25,7 +25,7 @@ lightweight baby,
 
 // hook up links to other projects, 
 
-// get the text centered in the modal content on hover, on mobile screens it is too far to the right, 
+// get the text centered in the modal content on hover, on mobile screens it is too far to the right, /
 
 
 
