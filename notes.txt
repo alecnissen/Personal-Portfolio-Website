@@ -17,7 +17,9 @@ lightweight baby,
 
 // add 6 projects / 
 
-// download cv option 
+// download cv option ITS BEING A FUCKING IDIOT, COMING BACK TO THIS!! 
+       // make sure it just downloads as a png or just a file that you can actually see it, 
+       // also remove the blue underline link for the button. 
 
 // if user presses contact me, they will be linked to linkedin page /
 
