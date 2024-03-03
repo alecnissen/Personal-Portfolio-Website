@@ -6,6 +6,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    // animation: moveBlobX 10s ease-in-out infinite, moveBlobY 8s ease-in-out infinite;
 }
 
 // .projects-container { 
@@ -96,6 +97,34 @@
 
 
 
+// animations 
+
+// .blob {
+//     position: absolute;
+//     width: 100px;
+//     height: 100px;
+//     border-radius: 50%;
+//     // background-color: #ff5733;
+//     background-image: url('../assets/react-icon.svg');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     animation: moveBlobX 10s ease-in-out infinite, moveBlobY 8s ease-in-out infinite;
+// }
+
+// .blob:nth-child(2) {
+//     // background-color: #ffcc5c;
+//     width: 150px;
+//     height: 150px;
+//     animation: moveBlobX 8s ease-in-out infinite, moveBlobY 10s ease-in-out infinite;
+// }
+
+// .projects-container { 
+//     position: relative;
+// }
+
+
+
+
 @media (max-width: 520px) { 
     .fashion-gems-demo-styles,
     .memory-card-demo-styles,
@@ -116,5 +145,30 @@
 
     100% { 
         transform: scale(1);
+    }
+}
+
+
+@keyframes moveBlobX {
+    0% {
+        left: -50px;
+    }
+    50% {
+        left: calc(100vw - 50px);
+    }
+    100% {
+        left: -50px;
+    }
+}
+
+@keyframes moveBlobY {
+    0% {
+        top: -50px;
+    }
+    50% {
+        top: calc(100vh - 50px);
+    }
+    100% {
+        top: -50px;
     }
 }
