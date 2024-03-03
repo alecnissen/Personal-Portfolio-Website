@@ -1,8 +1,117 @@
-body { 
-    background: rgb(31, 11, 46);
+// original
+
+// body { 
+//     background: rgb(31, 11, 46);
+//     background: linear-gradient(90deg, rgb(61, 30, 85) 0%, rgb(36, 17, 54) 45%, rgb(7, 47, 71) 100%);
+//     color: white;
+// }
+
+// this works, performance is pretty good, 
+
+// body {
+//     margin: 0;
+//     padding: 0;
+//     // overflow: hidden;
+//     animation: gradientAnimation 8s linear infinite;
+//     background: linear-gradient(to right, #2c063d, #4e2ab1, #7a0808); /* Adjust gradient colors */
+//     background-size: 400% 400%;
+//     color: white;
+// }
+
+// @keyframes gradientAnimation {
+//     0% {
+//         background-position: 0% 50%;
+//     }
+//     50% {
+//         background-position: 100% 50%;
+//     }
+//     100% {
+//         background-position: 0% 50%;
+//     }
+// }
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    // overflow: hidden;
+    // background-color: #000;
+    // background: rgb(31, 11, 46);
     background: linear-gradient(90deg, rgb(61, 30, 85) 0%, rgb(36, 17, 54) 45%, rgb(7, 47, 71) 100%);
+    position: relative;
     color: white;
+}
+
+.blob {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    // background-color: #ff5733;
+    background-image: url('../assets/react-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: moveBlobX 10s ease-in-out infinite, moveBlobY 8s ease-in-out infinite;
+}
+
+.blob:nth-child(2) {
+    // background-color: #ffcc5c;
+    width: 150px;
+    height: 150px;
+    animation: moveBlobX 8s ease-in-out infinite, moveBlobY 10s ease-in-out infinite;
+}
+
+@keyframes moveBlobX {
+    0% {
+        left: -50px;
+    }
+    50% {
+        left: calc(100vw - 50px);
+    }
+    100% {
+        left: -50px;
+    }
+}
+
+@keyframes moveBlobY {
+    0% {
+        top: -50px;
+    }
+    50% {
+        top: calc(100vh - 50px);
+    }
+    100% {
+        top: -50px;
+    }
 }
 
 
 
+
+
+
+
+
+// body { 
+//     height: 100vh;
+//     width: 100%;
+//     background: linear-gradient(45deg, #1e0b52, #1c1555, #850707, #c91221);
+//     background-size: 300% 300%;
+//     animation: color 6s ease-in-out infinite;
+//     color: white;
+// } 
+
+// @keyframes color { 
+//     0% { 
+//         background-position: 0 50%;
+//     }
+
+//     50% { 
+//         background-position: 100% 50%;
+//     }
+
+//     100% { 
+//         background-position: 0 50%;
+//     }
+// }
