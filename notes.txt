@@ -7,7 +7,7 @@ lightweight baby,
 
 // add background color to resume container and box shadow /
 
-// add mobile responsive or desktop text in hover modal class. 
+// add mobile responsive or desktop text in hover modal class. /
 
 
 
@@ -21,9 +21,9 @@ lightweight baby,
 
 // if user presses contact me, they will be linked to linkedin page /
 
-// increase font size of p tags, header etc, 
+// increase font size of p tags, header etc, /
 
-// hook up links to other projects, 
+// hook up links to other projects, /
 
 // get the text centered in the modal content on hover, on mobile screens it is too far to the right, /
 
