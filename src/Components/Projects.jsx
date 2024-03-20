@@ -16,11 +16,11 @@ function Projects() {
   const projectsRef = useRef(null);
 
   useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.5, // Trigger when 50% of the projects container is visible
-    };
+    // const options = {
+    //   root: null,
+    //   rootMargin: '0px',
+    //   threshold: 0.5, // Trigger when 50% of the projects container is visible
+    // };
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -29,7 +29,7 @@ function Projects() {
           observer.disconnect(); // Disconnect the observer once triggered
         }
       });
-    }, options);
+    });
 
     if (projectsRef.current) {
       observer.observe(projectsRef.current);
@@ -49,7 +49,7 @@ function Projects() {
     <div className='projects-section-wrapper'>
         <h1 id='projects-section'>Projects</h1>
         <p>Welcome to the projects section! Here you find some of my projects that highlight my ability as a front end developer.
-        Here you can see my progress, all the trial and error, and hands on learning that took place on each of these Projects! 
+        Here you can see my progress, all the trial and error, and hands on learning that took place on each of these projects! 
         </p>
 
     <div className='projects-container' ref={projectsRef}> 

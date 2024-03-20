@@ -49,14 +49,14 @@ function Resume() {
       
       <img src={emoji} className='emoji-styles'></img>
       <div className='text-container'> 
-      <p>If you still have any questions, feel free to contact me. Additionally, you can download my resume below!</p>
+      <p>If you still have any questions, feel free to contact me by using the links below! I look forward to hearing from you!</p>
       
       <div className='resume-contact-links-container'> 
           {/* <a href='../assets/Alec-Nissen-Resume.docx' download> */}
-        <button>
+        {/* <button>
         <img src={downloadIcon} className="download-icon-styles"></img>
         Download CV
-        </button>
+        </button> */}
         {/* </a> */}
         <a href='https://www.linkedin.com/in/alec-nissen-9562a4b5/'>
         <button>

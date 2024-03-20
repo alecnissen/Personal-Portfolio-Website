@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .projects-section-wrapper { 
-    // display: flex;
-    // flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -25,6 +27,7 @@
     font-size: 1.2rem;
     text-align: center;
     padding: 1em;
+    max-width: 40em;
 }
 
 .fashion-gems-demo-styles,
@@ -64,19 +67,21 @@
 .projects-container .memory-card-container,
 .projects-container .cv-app-container,
 .projects-container .vault-bjj-container { 
-    opacity: 0;
-    transition: opacity 2s ease;
+    opacity: 1;
+    // transition: opacity 2s ease;
     
 } 
 
-.projects-container .shopping-cart-container.focused,
-.projects-container .memory-card-container.focused,
-.projects-container .cv-app-container.focused,
-.projects-container .vault-bjj-container.focused { 
-    opacity: 1;
-    transform: scale(1);
-    transition: opacity 2s ease, transform 2s ease;
-}
+
+// testing if removing the focused class, will make the elements appear
+// .projects-container .shopping-cart-container.focused,
+// .projects-container .memory-card-container.focused,
+// .projects-container .cv-app-container.focused,
+// .projects-container .vault-bjj-container.focused { 
+//     opacity: 1;
+//     transform: scale(1);
+//     transition: opacity 2s ease, transform 2s ease;
+// }
 
 // .projects-container:focus-within { 
 //     transform: scale(2);
@@ -126,6 +131,10 @@
 
 
 @media (max-width: 520px) { 
+
+
+
+
     .fashion-gems-demo-styles,
     .memory-card-demo-styles,
     .vault-bjj-demo-styles { 
