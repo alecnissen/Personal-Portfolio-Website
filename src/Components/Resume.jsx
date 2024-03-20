@@ -1,14 +1,12 @@
-import React from 'react'
-import emoji from "../assets/emoji.png"
-import downloadIcon from "../assets/icons8-download-64.png"
-import msgIcon from "../assets/msg-icon.png"
-import { useRef, useEffect, useState } from 'react'
+import React from 'react';
+import emoji from '../assets/emoji.png';
+import downloadIcon from '../assets/icons8-download-64.png';
+import msgIcon from '../assets/msg-icon.png';
+import { useRef, useEffect, useState } from 'react';
 
 function Resume() {
-
   const resumeContainer = useRef(null);
   const [show, setShow] = useState(false);
-
 
   useEffect(() => {
     const options = {
@@ -16,7 +14,7 @@ function Resume() {
       rootMargin: '0px',
       threshold: 0.5,
     };
-  
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -25,11 +23,11 @@ function Resume() {
         }
       });
     }, options);
-  
+
     if (resumeContainer.current) {
       observer.observe(resumeContainer.current);
     }
-  
+
     return () => {
       if (resumeContainer.current) {
         observer.unobserve(resumeContainer.current);
@@ -39,45 +37,39 @@ function Resume() {
 
   return (
     <>
-    {/* <div className={`resume-content-wrapper ${show} ? 'focused' : ''}`} ref={resumeContainer}> */}
-    <div className={`resume-content-wrapper ${show ? 'focused' : ''}`} ref={resumeContainer}>
-    <h1 id='resume-section'>Resume</h1>
-    <h1>Interested in working with me?</h1>
-    {/* <div className={`resume-download-container ${show ? 'focused' : ''}`} ref={resumeContainer}> */}
+      {/* <div className={`resume-content-wrapper ${show} ? 'focused' : ''}`} ref={resumeContainer}> */}
+      <div className={`resume-content-wrapper ${show ? 'focused' : ''}`} ref={resumeContainer}>
+        <h1 id="resume-section">Resume</h1>
+        <h1>Interested in working with me?</h1>
+        {/* <div className={`resume-download-container ${show ? 'focused' : ''}`} ref={resumeContainer}> */}
 
-    <div className={'resume-download-container'}>
-      
-      <img src={emoji} className='emoji-styles'></img>
-      <div className='text-container'> 
-      <p>If you still have any questions, feel free to contact me by using the links below! I look forward to hearing from you!</p>
-      
-      <div className='resume-contact-links-container'> 
-          {/* <a href='../assets/Alec-Nissen-Resume.docx' download> */}
-        {/* <button>
+        <div className={'resume-download-container'}>
+          <img src={emoji} className="emoji-styles"></img>
+          <div className="text-container">
+            <p>
+              If you still have any questions, feel free to contact me by using the links below! I look forward to
+              hearing from you!
+            </p>
+
+            <div className="resume-contact-links-container">
+              {/* <a href='../assets/Alec-Nissen-Resume.docx' download> */}
+              {/* <button>
         <img src={downloadIcon} className="download-icon-styles"></img>
         Download CV
         </button> */}
-        {/* </a> */}
-        <a href='https://www.linkedin.com/in/alec-nissen-9562a4b5/'>
-        <button>
-          <img src={msgIcon} className='msg-icon-styles'></img>
-          Contact Me
-        </button>
-        </a>
-
-
+              {/* </a> */}
+              <a href="https://www.linkedin.com/in/alec-nissen-9562a4b5/">
+                <button>
+                  <img src={msgIcon} className="msg-icon-styles"></img>
+                  Contact Me
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      
-      </div>
-
-    
-
-    </div>
-
-
-    </div>
     </>
-  )
+  );
 }
 
-export default Resume
+export default Resume;
