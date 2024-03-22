@@ -23,7 +23,7 @@ export default function Header() {
             <button>Projects</button>
           </a>
           <a href="#resume-section">
-            <button>Resume</button>
+            <button>Contact</button>
           </a>
         </div>
 
