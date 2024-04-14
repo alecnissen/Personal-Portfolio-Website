@@ -38,8 +38,8 @@ function Resume() {
   return (
     <>
       {/* <div className={`resume-content-wrapper ${show} ? 'focused' : ''}`} ref={resumeContainer}> */}
-      <div className={`resume-content-wrapper ${show ? 'focused' : ''}`} ref={resumeContainer}>
-        <h1 id="resume-section">Contact Information</h1>
+      <div className={`resume-content-wrapper ${show ? 'focused' : ''}`} ref={resumeContainer} id="resume-section">
+        {/* <h1 id="resume-section">Contact Information</h1> */}
         <h1>Interested in working with me?</h1>
         {/* <div className={`resume-download-container ${show ? 'focused' : ''}`} ref={resumeContainer}> */}
 

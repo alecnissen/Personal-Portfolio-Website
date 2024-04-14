@@ -41,7 +41,15 @@ body {
     background: linear-gradient(45deg, #120438, #160a70, #508ee0, hsl(258, 68%, 43%));
     background-size: 300% 300%;
     animation: color 6s ease-in-out infinite;
-}
+} 
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
 
 // .blob {
 //     position: absolute;
