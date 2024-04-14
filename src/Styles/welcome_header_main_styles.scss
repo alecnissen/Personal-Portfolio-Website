@@ -144,6 +144,8 @@ main {
 // }
 
 
+
+
 @media (max-width: 650px) { 
         main { 
         display: flex;
@@ -175,6 +177,7 @@ main {
         align-items: center;
         // width: 100%;
         white-space: nowrap;
+        padding: 0.3em;
     }
 
     .name-title-container h1{ 
