@@ -58,11 +58,11 @@ function Projects() {
               <h3>FashionGems Store</h3>
               <h3>Mobile Responsive</h3>
 
-              <a href="https://github.com/alecnissen/Shopping-Cart">
+              <a href="https://github.com/alecnissen/Shopping-Cart" target="_blank">
                 <button>Code</button>
               </a>
 
-              <a href="https://fashiongems.netlify.app">
+              <a href="https://fashiongems.netlify.app" target="_blank">
                 <button>Live</button>
               </a>
             </div>
@@ -88,10 +88,10 @@ function Projects() {
               <h3>Vault Jiu Jitsu</h3>
               <h3>Mobile Responsive</h3>
 
-              <a href="https://github.com/alecnissen/vault-bjj">
+              <a href="https://github.com/alecnissen/vault-bjj" target="_blank">
                 <button>Code</button>
               </a>
-              <a href="https://vaultbjj.netlify.app">
+              <a href="https://vaultbjj.netlify.app" target="_blank">
                 <button>Live</button>
               </a>
             </div>
@@ -99,33 +99,31 @@ function Projects() {
           </div>
 
           <div className={`memory-card-container ${show ? 'focused' : ''}`}>
-            {/* <h3>Memory Card Game</h3> */}
             <div className="modal-content-memory-card">
               <h3>Memory Card Game</h3>
               <h3>Mobile Responsive</h3>
 
-              <a href="https://github.com/alecnissen/Memory-Card">
+              <a href="https://github.com/alecnissen/Memory-Card" target="_blank">
                 <button>Code</button>
               </a>
-              <a href="https://memory-card-game-top.netlify.app/">
+              <a href="https://memory-card-game-top.netlify.app/" target="_blank">
                 <button>Live</button>
               </a>
             </div>
 
             <img src={memoryCardDemo} className="memory-card-demo-styles"></img>
           </div>
-
+{/* 
           <div className={`cv-app-container ${show ? 'focused' : ''}`}>
-            {/* <h3>CV/Resume Generator</h3> */}
             <div className="modal-content-cv-app">
               <h3>CV App</h3>
               <h3>Best viewed on desktop</h3>
 
-              <a href="https://github.com/alecnissen/CV-App">
+              <a href="https://github.com/alecnissen/CV-App" >
                 <button>Code</button>
               </a>
 
-              <a href="https://cv-resume-generator-top.netlify.app/">
+              <a href="https://cv-resume-generator-top.netlify.app/" target="_blank">
                 <button>Live</button>
               </a>
             </div>
@@ -133,7 +131,6 @@ function Projects() {
           </div>
 
           <div className={`cv-app-container ${show ? 'focused' : ''}`}>
-            {/* <h3>CV/Resume Generator</h3> */}
             <div className="modal-content-cv-app">
               <h3>Todo List</h3>
               <h3>Mobile Responsive</h3>
@@ -151,29 +148,18 @@ function Projects() {
             <div className="modal-content-cv-app">
               <h3>Battleship</h3>
               <h3>Best viewed on desktop</h3>
-              <a href="https://github.com/alecnissen/Battleship">
+              <a href="https://github.com/alecnissen/Battleship" >
                 <button>Code</button>
               </a>
 
-              <a href="https://alecnissen.github.io/Battleship/">
+              <a href="https://alecnissen.github.io/Battleship/" target="_blank">
                 <button>Live</button>
               </a>
             </div>
             <img src={battleshipDemo} className="cv-app-demo-styles"></img>
-          </div>
+          </div> */}
 
-          {/* <div className={`cv-app-container ${show ? 'focused' : ''}`}> 
         
-        <div className='modal-content-cv-app'>
-
-        <h3>CV/Resume Generator</h3>
-
-        <button>Code</button>
-        <button>Live</button>
-
-        </div>
-        <img src={vaultBjjDemo} className='cv-app-demo-styles'></img>
-        </div> */}
         </div>
       </div>
     </>
