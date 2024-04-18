@@ -17,7 +17,7 @@ lightweight baby,
 
 // add 6 projects / 
 
-// download cv option ITS BEING A FUCKING IDIOT, COMING BACK TO THIS!! 
+
        // make sure it just downloads as a png or just a file that you can actually see it, 
        // also remove the blue underline link for the button. 
 
@@ -36,3 +36,12 @@ lightweight baby,
 
 // adding the links to different parts of the page, /
 
+
+
+// 4/18 
+
+// FIX THE ICONS IN THE HEADER AND THE FOOTER, TO BLACK AND WHITE // DONE
+
+// ALSO FIX THE SCROLLING IN THE SKILLS SECTION, 
+
+// MAKE SURE THE LINKS OPEN UP IN A NEW TAB!!! // DONE

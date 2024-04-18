@@ -32,6 +32,9 @@ function TechStack() {
   }, []);
 
   return (
+
+
+
     <div className="tech-stack-wrapper" id="skills-section">
       {/* <div className='tech-stack-container'>  */}
       <div className={`tech-stack-container ${show} ? 'focused' : ''}`}>
