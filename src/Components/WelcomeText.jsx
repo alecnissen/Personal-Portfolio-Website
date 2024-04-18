@@ -32,7 +32,7 @@ function WelcomeText() {
         <div className='name-title-container'> 
         {/* <h1>Hello! My name is Alec and I am a Frontend Developer!</h1> */}
         <h1>{displayedText}</h1>
-        <p>Welcome to my site! My passion is to build amazing user interfaces. Here you can find my projects which showcase my ability!</p>
+        <p id="skills-section">Welcome to my site! My passion is to build amazing user interfaces. Here you can find my projects which showcase my ability!</p>
         </div>
 
 
