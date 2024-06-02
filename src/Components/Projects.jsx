@@ -9,6 +9,7 @@ import vaultBjjDemo from '../assets/vault-bjj-demo-3.png';
 import HoverClassProjectCards from './HoverClassProjectCards';
 import '../Styles/projects_section_styles.scss';
 import vaultBjjDemo2 from '../assets/vault-preview-2.png';
+import ppsDemo from '../assets/pps-demo-2.png';
 
 function Projects() {
   const [show, setShow] = useState(false);
@@ -52,6 +53,41 @@ function Projects() {
         </p>
 
         <div className="projects-container" ref={projectsRef}>
+          <div className={`memory-card-container ${show ? 'focused' : ''}`}>
+            <div className="modal-content-memory-card">
+              <h3>Prodigy Pest Solutions</h3>
+              <h3>Mobile Responsive</h3>
+
+              <a href="https://github.com/alecnissen/Prodigy-Pest-Solutions" target="_blank">
+                <button>Code</button>
+              </a>
+              <a href="https://prodigypestsolutions.netlify.app/" target="_blank">
+                <button>Live</button>
+              </a>
+            </div>
+
+            <img src={ppsDemo} className="memory-card-demo-styles"></img>
+          </div>
+
+   
+
+          <div className={`cv-app-container ${show ? 'focused' : ''}`}>
+            <div className="modal-content-cv-app">
+              <h3>Vault Jiu Jitsu</h3>
+              <h3>Mobile Responsive</h3>
+
+              <a href="https://github.com/alecnissen/vault-bjj" target="_blank">
+                <button>Code</button>
+              </a>
+              <a href="https://vaultbjj.netlify.app" target="_blank">
+                <button>Live</button>
+              </a>
+            </div>
+            <img src={vaultBjjDemo2} className="cv-app-demo-styles"></img>
+          </div>
+
+
+
           <div className={`shopping-cart-container ${show ? 'focused' : ''}`}>
             {/* <h3>FashionGems Store</h3> */}
             <div className="modal-content">
@@ -70,96 +106,9 @@ function Projects() {
             <img src={fashionGemsDemo} className="fashion-gems-demo-styles"></img>
           </div>
 
-          {/* <div className={`vault-bjj-container ${show ? 'focused' : ''}`}> 
-        
-        <div className='modal-content-vault-bjj'>
 
-        <h3>Vault Jiu Jitsu</h3>
 
-        <button>Code</button>
-        <button>Live</button>
 
-        </div>
-        <img src={vaultBjjDemo} className='vault-bjj-demo-styles'></img>
-        </div> */}
-
-          <div className={`cv-app-container ${show ? 'focused' : ''}`}>
-            <div className="modal-content-cv-app">
-              <h3>Vault Jiu Jitsu</h3>
-              <h3>Mobile Responsive</h3>
-
-              <a href="https://github.com/alecnissen/vault-bjj" target="_blank">
-                <button>Code</button>
-              </a>
-              <a href="https://vaultbjj.netlify.app" target="_blank">
-                <button>Live</button>
-              </a>
-            </div>
-            <img src={vaultBjjDemo2} className="cv-app-demo-styles"></img>
-          </div>
-
-          <div className={`memory-card-container ${show ? 'focused' : ''}`}>
-            <div className="modal-content-memory-card">
-              <h3>Memory Card Game</h3>
-              <h3>Mobile Responsive</h3>
-
-              <a href="https://github.com/alecnissen/Memory-Card" target="_blank">
-                <button>Code</button>
-              </a>
-              <a href="https://memory-card-game-top.netlify.app/" target="_blank">
-                <button>Live</button>
-              </a>
-            </div>
-
-            <img src={memoryCardDemo} className="memory-card-demo-styles"></img>
-          </div>
-{/* 
-          <div className={`cv-app-container ${show ? 'focused' : ''}`}>
-            <div className="modal-content-cv-app">
-              <h3>CV App</h3>
-              <h3>Best viewed on desktop</h3>
-
-              <a href="https://github.com/alecnissen/CV-App" >
-                <button>Code</button>
-              </a>
-
-              <a href="https://cv-resume-generator-top.netlify.app/" target="_blank">
-                <button>Live</button>
-              </a>
-            </div>
-            <img src={cvAppDemo} className="cv-app-demo-styles"></img>
-          </div>
-
-          <div className={`cv-app-container ${show ? 'focused' : ''}`}>
-            <div className="modal-content-cv-app">
-              <h3>Todo List</h3>
-              <h3>Mobile Responsive</h3>
-              <a href="https://github.com/alecnissen/to-do-list-A">
-                <button>Code</button>
-              </a>
-              <a href="https://alecnissen.github.io/to-do-list-A/">
-                <button>Live</button>
-              </a>
-            </div>
-            <img src={todoListDemo} className="cv-app-demo-styles"></img>
-          </div>
-
-          <div className={`cv-app-container ${show ? 'focused' : ''}`}>
-            <div className="modal-content-cv-app">
-              <h3>Battleship</h3>
-              <h3>Best viewed on desktop</h3>
-              <a href="https://github.com/alecnissen/Battleship" >
-                <button>Code</button>
-              </a>
-
-              <a href="https://alecnissen.github.io/Battleship/" target="_blank">
-                <button>Live</button>
-              </a>
-            </div>
-            <img src={battleshipDemo} className="cv-app-demo-styles"></img>
-          </div> */}
-
-        
         </div>
       </div>
     </>

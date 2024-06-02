@@ -30,8 +30,7 @@
     max-width: 40em;
 }
 
-.fashion-gems-demo-styles,
-.memory-card-demo-styles { 
+.fashion-gems-demo-styles { 
     width: 30em;
 }
 
@@ -40,7 +39,7 @@
 // }
 
 .cv-app-container img {
-    width: 29em;
+    width: 30em;
     height: 19em;
 }
 
@@ -59,6 +58,11 @@
 .vault-bjj-container
  { 
     box-shadow: 0 0 10px #8e44ad, 0 0 10px #8e44ad, 0 0 28px #8e44ad;
+}
+
+.memory-card-demo-styles { 
+    width: 30em;
+    height: 19em;
 }
 
 
@@ -148,12 +152,12 @@
 
 
     .fashion-gems-demo-styles,
-    .memory-card-demo-styles,
     .vault-bjj-demo-styles { 
         width: 21em;
     }   
 
-    .cv-app-container img { 
+    .cv-app-container img,
+    .memory-card-demo-styles { 
         width: 21em;
         height: 15em;
     } 
