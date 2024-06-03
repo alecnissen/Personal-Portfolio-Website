@@ -58,12 +58,18 @@ function Projects() {
               <h3>Prodigy Pest Solutions</h3>
               <h3>Mobile Responsive</h3>
 
+
+              <div className='modal-content-link-container'>
               <a href="https://github.com/alecnissen/Prodigy-Pest-Solutions" target="_blank">
                 <button>Code</button>
               </a>
               <a href="https://prodigypestsolutions.netlify.app/" target="_blank">
                 <button>Live</button>
               </a>
+              </div>
+
+
+
             </div>
 
             <img src={ppsDemo} className="memory-card-demo-styles"></img>
@@ -76,12 +82,17 @@ function Projects() {
               <h3>Vault Jiu Jitsu</h3>
               <h3>Mobile Responsive</h3>
 
+
+              <div className='modal-content-link-container'>
               <a href="https://github.com/alecnissen/vault-bjj" target="_blank">
                 <button>Code</button>
               </a>
               <a href="https://vaultbjj.netlify.app" target="_blank">
                 <button>Live</button>
               </a>
+              </div>
+
+
             </div>
             <img src={vaultBjjDemo2} className="cv-app-demo-styles"></img>
           </div>
@@ -94,6 +105,8 @@ function Projects() {
               <h3>FashionGems Store</h3>
               <h3>Mobile Responsive</h3>
 
+
+              <div className='modal-content-link-container'>
               <a href="https://github.com/alecnissen/Shopping-Cart" target="_blank">
                 <button>Code</button>
               </a>
@@ -101,6 +114,8 @@ function Projects() {
               <a href="https://fashiongems.netlify.app" target="_blank">
                 <button>Live</button>
               </a>
+              </div>
+
             </div>
 
             <img src={fashionGemsDemo} className="fashion-gems-demo-styles"></img>
