@@ -63,7 +63,7 @@ function Projects() {
               <a href="https://github.com/alecnissen/Prodigy-Pest-Solutions" target="_blank">
                 <button>Code</button>
               </a>
-              <a href="https://prodigypestsolutions.netlify.app/" target="_blank">
+              <a href="https://precisionpestcontrol.netlify.app/" target="_blank">
                 <button>Live</button>
               </a>
               </div>

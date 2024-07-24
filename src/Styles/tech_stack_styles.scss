@@ -37,7 +37,10 @@
     100% { opacity: 1; }
 }
 
+.mongoDB-container,
+.expressjs-container,
 .react-container,
+.nodejs-container,
 .javascript-container,
 .sass-container,
 .html-container,
@@ -104,20 +107,27 @@
 }
 
 
+.languages-container div:nth-child(10) {
+    animation-delay: 5s;
+}
+
+.languages-container div:nth-child(11) {
+    animation-delay: 5.5s;
+}
+
+.languages-container div:nth-child(12) {
+    animation-delay: 6s;
+}
 
 
 
-// @keyframes fadeIn {
-//     from {
-//       opacity: 0;
-//     }
-//     to {
-//       opacity: 1;
-//     }
-//   }
 
-@media (max-width: 1030px) { 
+
+
+
+@media (max-width: 1040px) { 
     .languages-container { 
+        flex-wrap: wrap;
         font-size: 1.6vw;
         gap: 1em;
         padding: 1.5em;
@@ -125,10 +135,20 @@
 }
 
 
+// @media (max-width: 1030px) { 
+//     .languages-container { 
+//         font-size: 1.6vw;
+//         gap: 1em;
+//         padding: 1.5em;
+//     }
+// }
+
+
 @media (max-width: 700px) { 
     .languages-container { 
         display: flex;
-        font-size: 2.2vw;
+        // font-size: 2.2vw;
+        font-size: 2.5vw;
         flex-wrap: wrap;
         // gap: 3em;
         padding: 1em;
