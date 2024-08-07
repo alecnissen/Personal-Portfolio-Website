@@ -9,7 +9,7 @@ import vaultBjjDemo from '../assets/vault-bjj-demo-3.png';
 import HoverClassProjectCards from './HoverClassProjectCards';
 import '../Styles/projects_section_styles.scss';
 import vaultBjjDemo2 from '../assets/vault-preview-2.png';
-import ppsDemo from '../assets/pps-demo-2.png';
+import ppsDemo from '../assets/pps-demo-portfolio.png'
 
 function Projects() {
   const [show, setShow] = useState(false);
@@ -55,12 +55,12 @@ function Projects() {
         <div className="projects-container" ref={projectsRef}>
           <div className={`memory-card-container ${show ? 'focused' : ''}`}>
             <div className="modal-content-memory-card">
-              <h3>Prodigy Pest Solutions</h3>
+              <h3>Precision Pest Control Demo Site</h3>
               <h3>Mobile Responsive</h3>
 
 
               <div className='modal-content-link-container'>
-              <a href="https://github.com/alecnissen/Prodigy-Pest-Solutions" target="_blank">
+              <a href="https://github.com/alecnissen/Precision-Pest-Control" target="_blank">
                 <button>Code</button>
               </a>
               <a href="https://precisionpestcontrol.netlify.app/" target="_blank">
