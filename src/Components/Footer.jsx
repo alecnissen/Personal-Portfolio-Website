@@ -2,9 +2,7 @@ import React from 'react';
 import linkedInImg from '../assets/linkedIn-portfolio.svg';
 import githubImg from '../assets/github-142-svgrepo-com.svg';
 import gmailImg from '../assets/gmail-svgrepo-com.svg';
-// import gmailImgColored from '../assets/icons8-gmail-48.png';
 import { useRef, useEffect, useState } from 'react';
-// import githubColoredImg from '../assets/gh-colored-icon.png';
 
 function Footer() {
   const footerContainer = useRef(null);
@@ -40,11 +38,9 @@ function Footer() {
   return (
     <>
       <div className={`footer-content-wrapper ${show ? 'focused' : ''}`} ref={footerContainer}>
-        {/* <div className='footer-content-wrapper'> */}
         <div className="contact-links-container">
           <a href="https://www.linkedin.com/in/alec-nissen-9562a4b5/" target="_blank">
             <img src={linkedInImg}></img>
-            {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" /> */}
           </a>
 
           <a href="https://github.com/alecnissen" target="_blank">

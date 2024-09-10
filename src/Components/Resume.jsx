@@ -1,6 +1,5 @@
 import React from 'react';
 import emoji from '../assets/emoji.png';
-import downloadIcon from '../assets/icons8-download-64.png';
 import msgIcon from '../assets/msg-icon.png';
 import { useRef, useEffect, useState } from 'react';
 
@@ -37,11 +36,8 @@ function Resume() {
 
   return (
     <>
-      {/* <div className={`resume-content-wrapper ${show} ? 'focused' : ''}`} ref={resumeContainer}> */}
       <div className={`resume-content-wrapper ${show ? 'focused' : ''}`} ref={resumeContainer} id="resume-section">
-        {/* <h1 id="resume-section">Contact Information</h1> */}
         <h1>Interested in working with me?</h1>
-        {/* <div className={`resume-download-container ${show ? 'focused' : ''}`} ref={resumeContainer}> */}
 
         <div className={'resume-download-container'}>
           <img src={emoji} className="emoji-styles"></img>
@@ -52,12 +48,6 @@ function Resume() {
             </p>
 
             <div className="resume-contact-links-container">
-              {/* <a href='../assets/Alec-Nissen-Resume.docx' download> */}
-              {/* <button>
-        <img src={downloadIcon} className="download-icon-styles"></img>
-        Download CV
-        </button> */}
-              {/* </a> */}
               <a href="https://www.linkedin.com/in/alec-nissen-9562a4b5/">
                 <button>
                   <img src={msgIcon} className="msg-icon-styles"></img>

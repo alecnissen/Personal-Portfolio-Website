@@ -1,13 +1,6 @@
 import React from 'react';
-// import linkedInImg from '../assets/linked-in-icon-white.png';
-
 
 import linkedInImg from '../assets/linkedIn-portfolio.svg';
-
-
-// import githubImg from '../assets/gh-colored-icon.png';
-
-
 
 import githubImg from '../assets/github-142-svgrepo-com.svg';
 
@@ -39,8 +32,6 @@ export default function Header() {
         <div className="contact-links">
           <a href="https://www.linkedin.com/in/alec-nissen-9562a4b5/" target="_blank">
             <img src={linkedInImg}></img>
-            {/* <i className="devicon-linkedin-plain"></i> */}
-            {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" /> */}
           </a>
 
           <a href="https://github.com/alecnissen" target="_blank">
