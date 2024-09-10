@@ -1,161 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.resume-content-wrapper { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    opacity: 0;
+.resume-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0;
 }
 
-.resume-content-wrapper h1 { 
-    text-align: center;
-    // font-size: 2.3rem;
-    font-weight: bolder;
+.resume-content-wrapper h1 {
+  text-align: center;
+  font-weight: bolder;
 }
 
-.text-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
 }
 
-.text-container p { 
-    text-align: center;
-    font-size: 1.2rem;
+.text-container p {
+  text-align: center;
+  font-size: 1.2rem;
 }
 
-.resume-contact-links-container { 
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    
-} 
-
-.resume-contact-links-container button { 
-    display: flex;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.2rem;
-    border-radius: 5%;
-    background-color: purple;
-    color: white;
-    border: none;
+.resume-contact-links-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
 
+.resume-contact-links-container button {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  border-radius: 5%;
+  background-color: purple;
+  color: white;
+  border: none;
+}
 
 .download-icon-styles,
-.msg-icon-styles { 
-    width: 3em;
+.msg-icon-styles {
+  width: 3em;
 }
 
-.resume-download-container { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // background-color: black;
-    // color: white;
-    border: 2px solid black;
-    border-radius: 3%;
-    width: 45%;
-    height: 40%;
-    box-shadow: 0 0 20px #8e44ad, 0 0 10px #8e44ad, 0 0 38px #8e44ad;
-    // opacity: 0;
-    // transform: translateX(-50em);
-    // animation: slideIn 2s ease;
+.resume-download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 3%;
+  width: 45%;
+  height: 40%;
+  box-shadow:
+    0 0 20px #8e44ad,
+    0 0 10px #8e44ad,
+    0 0 38px #8e44ad;
 }
 
-// .resume-content-wrapper h1 { 
-//     animation: slideIn 1s ease;
-// }
-
-.resume-content-wrapper.focused { 
-    animation: slideIn 1s ease;
-    opacity: 1;
+.resume-content-wrapper.focused {
+  animation: slideIn 1s ease;
+  opacity: 1;
 }
 
-// .resume-download-container.focused { 
-//     animation: slideIn 1s ease;
-//     opacity: 1;
-// }
-
-// .resume-download-container img { 
-//     padding: 2em;
-// }
-
-.emoji-styles { 
-    width: 12em;
-    padding: 0.5em;
+.emoji-styles {
+  width: 12em;
+  padding: 0.5em;
 }
 
-.resume-contact-links-container { 
-    display: flex;
+.resume-contact-links-container {
+  display: flex;
 }
 
+@media (max-width: 1360px) {
+  .text-container p {
+    font-size: 1rem;
+  }
 
-
-
-
-
-
-
-@media (max-width: 1360px) { 
-    .text-container p { 
-        font-size: 1rem;
-    } 
-
-   .resume-contact-links-container button { 
+  .resume-contact-links-container button {
     font-size: 0.8rem;
-   }
+  }
 }
 
+@media (max-width: 1100px) {
+  .emoji-styles {
+    width: 9em;
+  }
 
-
-@media (max-width: 1100px) { 
-    .emoji-styles { 
-        width: 9em;
-    }
-
-    .resume-download-container { 
-        width: 60%;
-    }
+  .resume-download-container {
+    width: 60%;
+  }
 }
 
-@media (max-width: 805px) { 
+@media (max-width: 805px) {
+  .emoji-styles {
+    width: 12em;
+  }
 
-    .emoji-styles { 
-        width: 12em;
-    }
-
-
-.resume-download-container { 
+  .resume-download-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90%;
     width: 80%;
-}
+  }
 
-.text-container { 
+  .text-container {
     padding: 1em;
+  }
 }
-}
 
-@keyframes slideIn { 
-    0% { 
-        transform: translateX(-150em);
-    } 
+@keyframes slideIn {
+  0% {
+    transform: translateX(-150em);
+  }
 
-    100% { 
-        transform: translateX(0);
-    }
-
+  100% {
+    transform: translateX(0);
+  }
 }

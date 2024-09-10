@@ -1,88 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 .modal-content-cv-app,
 .modal-content,
-.modal-content-memory-card  { 
+.modal-content-memory-card {
   visibility: hidden;
   position: absolute;
-//   top: -100%;
-//   left: 30%;
-top: 50%; /* Position at vertical center */
-left: 50%; /* Position at horizontal center */
-transform: translate(-50%, -35%); /* Center the modal content */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
   text-align: center;
   color: white;
   z-index: 3;
-} 
+}
 
 .modal-content-cv-app button,
 .modal-content button,
 .modal-content-memory-card button {
-    margin-top: 10px; /* Add some space above the buttons */
-    display: inline-block; /* Ensure buttons are displayed in a row */
-    margin-right: 5px; /* Add some space between buttons */
-    background-color: white;
-    color: black;
-    border-radius: 15%;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 1.2rem;
+  margin-top: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 15%;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.2rem;
 }
-
-// .modal-content-cv-app button { 
-//     margin-top: 10px; /* Add some space above the buttons */
-//     display: flex; /* Ensure buttons are displayed in a row */
-//     margin-right: 5px; /* Add some space between buttons */
-// }
 
 .cv-app-container:hover > .modal-content-cv-app,
 .shopping-cart-container:hover > .modal-content,
-.memory-card-container:hover > .modal-content-memory-card { 
-    z-index: 3;
-    visibility: visible;
-    text-align: center;
-    animation: slideFromTop 1s ease forwards;
+.memory-card-container:hover > .modal-content-memory-card {
+  z-index: 3;
+  visibility: visible;
+  text-align: center;
+  animation: slideFromTop 1s ease forwards;
 }
 
 .cv-app-container:hover .cv-app-demo-styles,
 .shopping-cart-container:hover .fashion-gems-demo-styles,
-.memory-card-container:hover .memory-card-demo-styles { 
-    opacity: 0.3; /* Hide the image when hovering over the container */
+.memory-card-container:hover .memory-card-demo-styles {
+  opacity: 0.3;
 }
 
 .cv-app-container,
 .shopping-cart-container,
-.memory-card-container { 
-    position: relative;
-    z-index: 1;
+.memory-card-container {
+  position: relative;
+  z-index: 1;
 }
 
 .cv-app-container:hover,
 .shopping-cart-container:hover,
-.memory-card-container:hover { 
-    background-color: black;
-    transition: background-color 1s ease; 
-    z-index: 2;
+.memory-card-container:hover {
+  background-color: black;
+  transition: background-color 1s ease;
+  z-index: 2;
 }
 
-@keyframes slideFromTop { 
-    from { 
-        top: -30%;
-    } 
+@keyframes slideFromTop {
+  from {
+    top: -30%;
+  }
 
-    to { 
-        top: 30%;
-    }
+  to {
+    top: 30%;
+  }
 }
-
-// @media (max-width: 520px) { 
-//     .cv-app-container:hover > .modal-content-cv-app { 
-//         position: absolute;
-//         left: 5em;
-//         font-size: 1.2rem;
-//     }
-// }

@@ -1,40 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.tech-stack-wrapper { 
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    // padding: 2em;
+.tech-stack-wrapper {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-
-.tech-stack-container h1 { 
-    text-align: center;
+.tech-stack-container h1 {
+  text-align: center;
 }
 
-// .tech-stack-container { 
-//     border: 2px solid black;
-// }
-
-// .tech-stack-container { 
-//     width: 5em;
-// }
-
-.languages-container svg { 
-    width: 5em;
+.languages-container svg {
+  width: 5em;
 }
 
-.languages-container { 
-    display: flex;
-    justify-content: center;
-    gap: 3em;
-    // font-size: 1rem;
-    font-size: 1vw;
+.languages-container {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  font-size: 1vw;
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .mongoDB-container,
@@ -48,124 +41,89 @@
 .bootstrap-container,
 .vitest-container,
 .webpack-container,
-.jest-container
- { 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    // transform: scale(1);
-    // opacity: 0;
-    // transition: opacity 1s ease-in-out;
-    // animation: fadeIn 2.5s forwards;
-    // transition: transform .4s ease-in-out;
+.jest-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.tech-stack-container.focused { 
-    animation: fadeIn 2s forwards;
+.tech-stack-container.focused {
+  animation: fadeIn 2s forwards;
 }
 
-.languages-container div { 
-    opacity: 0;
-    animation: fadeIn 1s forwards;
+.languages-container div {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
 }
 
 .languages-container div:nth-child(1) {
-    animation-delay: 0.5s; /* Adjust the delay for each subsequent SVG or image */
+  animation-delay: 0.5s; /* Adjust the delay for each subsequent SVG or image */
 }
 
 .languages-container div:nth-child(2) {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .languages-container div:nth-child(3) {
-    animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 .languages-container div:nth-child(4) {
-    animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 .languages-container div:nth-child(5) {
-    animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
 .languages-container div:nth-child(6) {
-    animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .languages-container div:nth-child(7) {
-    animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }
 
-
 .languages-container div:nth-child(8) {
-    animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 .languages-container div:nth-child(9) {
-    animation-delay: 4.5s;
+  animation-delay: 4.5s;
 }
 
-
 .languages-container div:nth-child(10) {
-    animation-delay: 5s;
+  animation-delay: 5s;
 }
 
 .languages-container div:nth-child(11) {
-    animation-delay: 5.5s;
+  animation-delay: 5.5s;
 }
 
 .languages-container div:nth-child(12) {
-    animation-delay: 6s;
+  animation-delay: 6s;
 }
 
-
-
-
-
-
-
-@media (max-width: 1040px) { 
-    .languages-container { 
-        flex-wrap: wrap;
-        font-size: 1.6vw;
-        gap: 1em;
-        padding: 1.5em;
-    }
+@media (max-width: 1040px) {
+  .languages-container {
+    flex-wrap: wrap;
+    font-size: 1.6vw;
+    gap: 1em;
+    padding: 1.5em;
+  }
 }
 
-
-// @media (max-width: 1030px) { 
-//     .languages-container { 
-//         font-size: 1.6vw;
-//         gap: 1em;
-//         padding: 1.5em;
-//     }
-// }
-
-
-@media (max-width: 700px) { 
-    .languages-container { 
-        display: flex;
-        // font-size: 2.2vw;
-        font-size: 2.5vw;
-        flex-wrap: wrap;
-        // gap: 3em;
-        padding: 1em;
-    }
-
-   
+@media (max-width: 700px) {
+  .languages-container {
+    display: flex;
+    font-size: 2.5vw;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
 }
 
-@media (max-width: 550px) { 
-    .languages-container { 
-        display: flex;
-        // width: 100%;
-        // padding: 1em;
-        // font-size: 0.8rem;
-    }
-
-    // .languages-container svg { 
-    //     width: 6em;
-    // }
+@media (max-width: 550px) {
+  .languages-container {
+    display: flex;
+  }
 }

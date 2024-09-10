@@ -1,26 +1,21 @@
-/* header styles */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.header-wrapper { 
+.header-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-style: normal;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 1000000;
-  // background-color: darkblue;
   background-color: transparent;
   backdrop-filter: blur(10px);
-  // opacity: .2;
-  // height: 20%;
 }
 
-.logo { 
+.logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -28,77 +23,59 @@
   font-size: 2em;
 }
 
-.contact-links { 
+.contact-links {
   display: flex;
   gap: 1em;
 
-  img { 
-   width: 40px;
- }
-
-  
+  img {
+    width: 40px;
+  }
 }
 
-// .gh-icon-header-colored { 
-//   width: 60px;
-// }
-
-
-
-.nav-links { 
+.nav-links {
   display: flex;
   justify-content: space-evenly;
   width: 35%;
 
-button { 
-    font-family: "Poppins", sans-serif;
+  button {
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    // font-weight: bold;
     font-style: normal;
     font-size: 1.5em;
     border: none;
     background: none;
     color: white;
     cursor: pointer;
-    // text-decoration: underline;
   }
 }
 
-button:hover { 
+button:hover {
   font-weight: bold;
   text-decoration: underline;
 }
 
-
-
-
-/* basic media query for header */ 
-
 @media (max-width: 700px) {
-  .header-wrapper { 
+  .header-wrapper {
     display: flex;
     flex-direction: column;
     gap: 1em;
     font-size: 1rem;
-    // font-size: 0.83rem;
     height: 9em;
-  } 
+  }
 
-  .nav-links { 
+  .nav-links {
     width: 70%;
-    
-    button { 
-  //  font-size: 0.83rem;
-  font-size: 1rem;
-  }
+
+    button {
+      font-size: 1rem;
+    }
   }
 
-  .contact-links img { 
+  .contact-links img {
     opacity: 0;
   }
 
-  .contact-links a { 
+  .contact-links a {
     display: none;
   }
-
 }

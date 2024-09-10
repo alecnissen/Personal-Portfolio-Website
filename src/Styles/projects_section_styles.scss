@@ -1,219 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.projects-section-wrapper { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    // animation: moveBlobX 10s ease-in-out infinite, moveBlobY 8s ease-in-out infinite;
+.projects-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-// .projects-container { 
-//     transform: scale(0.8);
-// }
-
-.projects-section-wrapper h1 { 
-    text-align: center;
+.projects-section-wrapper h1 {
+  text-align: center;
 }
 
-.projects-section-wrapper p { 
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // width: 100%;
-    font-size: 1.2rem;
-    text-align: center;
-    // padding: 1em;
-    max-width: 40em;
+.projects-section-wrapper p {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 40em;
 }
 
-.fashion-gems-demo-styles { 
-    width: 30em;
+.fashion-gems-demo-styles {
+  width: 30em;
 }
-
-// .cv-app-container img { 
-//     height: 19em;
-// }
 
 .cv-app-container img {
-    width: 30em;
-    height: 19em;
+  width: 30em;
+  height: 19em;
 }
 
-.projects-container { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-    flex-wrap: wrap;
-    // opacity: 0;
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
 }
 
 .shopping-cart-container,
 .memory-card-container,
 .cv-app-container,
-.vault-bjj-container
- { 
-    box-shadow: 0 0 10px #8e44ad, 0 0 10px #8e44ad, 0 0 28px #8e44ad;
+.vault-bjj-container {
+  box-shadow:
+    0 0 10px #8e44ad,
+    0 0 10px #8e44ad,
+    0 0 28px #8e44ad;
 }
 
-.memory-card-demo-styles { 
-    width: 30em;
-    height: 19em;
+.memory-card-demo-styles {
+  width: 30em;
+  height: 19em;
 }
 
-.modal-content-link-container { 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.modal-content-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
-
 
 .projects-container .shopping-cart-container,
 .projects-container .memory-card-container,
 .projects-container .cv-app-container,
-.projects-container .vault-bjj-container { 
-    opacity: 1;
-    // transition: opacity 2s ease;
-    
-} 
-
-
-// testing if removing the focused class, will make the elements appear
-// .projects-container .shopping-cart-container.focused,
-// .projects-container .memory-card-container.focused,
-// .projects-container .cv-app-container.focused,
-// .projects-container .vault-bjj-container.focused { 
-//     opacity: 1;
-//     transform: scale(1);
-//     transition: opacity 2s ease, transform 2s ease;
-// }
-
-// .projects-container:focus-within { 
-//     transform: scale(2);
-//     opacity: 1;
-// } 
-
-
-
-// .shopping-cart-container:hover { 
-//     background-color: green;
-// }
-
-
-// .projects-container:focus-within button { 
-//     animation: grow 1s ease forwards;
-// }
-
-
-
-
-// animations 
-
-// .blob {
-//     position: absolute;
-//     width: 100px;
-//     height: 100px;
-//     border-radius: 50%;
-//     // background-color: #ff5733;
-//     background-image: url('../assets/react-icon.svg');
-//     background-size: contain;
-//     background-repeat: no-repeat;
-//     animation: moveBlobX 10s ease-in-out infinite, moveBlobY 8s ease-in-out infinite;
-// }
-
-// .blob:nth-child(2) {
-//     // background-color: #ffcc5c;
-//     width: 150px;
-//     height: 150px;
-//     animation: moveBlobX 8s ease-in-out infinite, moveBlobY 10s ease-in-out infinite;
-// }
-
-// .projects-container { 
-//     position: relative;
-// }
-
-
-
-
-
-
-
-
-@media (max-width: 770px) { 
-    .projects-section-wrapper p { 
-        max-width: 25em;
-    }
+.projects-container .vault-bjj-container {
+  opacity: 1;
 }
 
-
-
-@media (max-width: 520px) { 
-
-
-
-
-    .fashion-gems-demo-styles,
-    .vault-bjj-demo-styles { 
-        width: 21em;
-    }   
-
-    .cv-app-container img,
-    .memory-card-demo-styles { 
-        width: 21em;
-        height: 15em;
-    } 
+@media (max-width: 770px) {
+  .projects-section-wrapper p {
+    max-width: 25em;
+  }
 }
 
+@media (max-width: 520px) {
+  .fashion-gems-demo-styles,
+  .vault-bjj-demo-styles {
+    width: 21em;
+  }
 
-
-
-@media (max-width: 430px) { 
-    .projects-section-wrapper p { 
-        font-size: 1rem !important;
-        max-width: 22em;
-    }
+  .cv-app-container img,
+  .memory-card-demo-styles {
+    width: 21em;
+    height: 15em;
+  }
 }
 
+@media (max-width: 430px) {
+  .projects-section-wrapper p {
+    font-size: 1rem !important;
+    max-width: 22em;
+  }
+}
 
-
-
-@keyframes grow { 
-    0% { 
+@keyframes grow {
+  0% {
     transform: scale(0);
-    }
+  }
 
-    100% { 
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
-
 
 @keyframes moveBlobX {
-    0% {
-        left: -50px;
-    }
-    50% {
-        left: calc(100vw - 50px);
-    }
-    100% {
-        left: -50px;
-    }
+  0% {
+    left: -50px;
+  }
+  50% {
+    left: calc(100vw - 50px);
+  }
+  100% {
+    left: -50px;
+  }
 }
 
 @keyframes moveBlobY {
-    0% {
-        top: -50px;
-    }
-    50% {
-        top: calc(100vh - 50px);
-    }
-    100% {
-        top: -50px;
-    }
+  0% {
+    top: -50px;
+  }
+  50% {
+    top: calc(100vh - 50px);
+  }
+  100% {
+    top: -50px;
+  }
 }
