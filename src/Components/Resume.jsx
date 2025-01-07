@@ -48,7 +48,7 @@ function Resume() {
             </p>
 
             <div className="resume-contact-links-container">
-              <a href="https://www.linkedin.com/in/alec-nissen-9562a4b5/">
+              <a href="https://www.linkedin.com/in/alec-nissen-9562a4b5/" target='_blank'>
                 <button>
                   <img src={msgIcon} className="msg-icon-styles"></img>
                   Contact Me

@@ -3,6 +3,9 @@ import fashionGemsDemo from '../assets/tablet-view.png';
 import '../Styles/projects_section_styles.scss';
 import vaultBjjDemo2 from '../assets/vault-preview-2.png';
 import ppsDemo from '../assets/pps-demo-portfolio.png';
+import fileUploaderDemo from '../assets/File-Uploader-Project-Breakdown.mp4';
+import fileUploaderThumbnail from '../assets/File-Upload-Breakdown-Thumbnail.png';
+import fileUploaderImg from '../assets/File-Uploader-TN.png';
 
 function Projects() {
   const [show, setShow] = useState(false);
@@ -93,6 +96,39 @@ function Projects() {
 
             <img src={fashionGemsDemo} className="fashion-gems-demo-styles"></img>
           </div>
+
+
+
+         
+
+            {/* <video src={fileUploaderDemo} className="fashion-gems-demo-styles" controls poster={fileUploaderThumbnail}>
+              <source src="movie.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video> */}
+
+
+        <div className={`shopping-cart-container ${show ? 'focused' : ''}`}>
+            <div className="modal-content">
+              <h3>File Uploader</h3>
+              <h3>Not Mobile Responsive</h3>
+              <h3>View a demo recording by clicking the button below</h3>
+
+              <div className="modal-content-link-container">
+                <a href="https://github.com/alecnissen/File-Uploader-2" target="_blank">
+                  <button>Code</button>
+                </a>
+
+                
+              </div>
+            </div>
+
+            <img src={fileUploaderImg} className="fashion-gems-demo-styles" id="file-uploader-img-styles"></img>
+          </div>
+       
+
+
+
+
         </div>
       </div>
     </>
