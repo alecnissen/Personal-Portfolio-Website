@@ -17,9 +17,16 @@
 .languages-container {
   display: flex;
   justify-content: center;
+  
   gap: 3em;
   font-size: 1vw;
+  // flex-wrap: wrap;
 }
+
+// #postgreSQL-styles { 
+//   position: relative;
+//   top: 0.7rem;
+// }
 
 @keyframes fadeIn {
   0% {
@@ -31,6 +38,7 @@
 }
 
 .mongoDB-container,
+.postgreSQL-container,
 .expressjs-container,
 .react-container,
 .nodejs-container,
@@ -43,9 +51,31 @@
 .webpack-container,
 .jest-container {
   display: flex;
+  
   flex-direction: column;
+  
   text-align: center;
 }
+
+
+
+// .mongoDB-container svg,
+// .postgreSQL-container svg,
+// .expressjs-container svg,
+// .react-container svg,
+// .nodejs-container svg,
+// .javascript-container svg,
+// .sass-container svg,
+// .html-container svg,
+// .css-container svg,
+// .bootstrap-container svg,
+// .vitest-container svg,
+// .webpack-container svg,
+// .jest-container svg { 
+//   margin-bottom: 20px; 
+// }
+
+
 
 .tech-stack-container.focused {
   animation: fadeIn 2s forwards;
@@ -102,6 +132,10 @@
 
 .languages-container div:nth-child(12) {
   animation-delay: 6s;
+}
+
+.languages-container div:nth-child(13) {
+  animation-delay: 6.5s;
 }
 
 @media (max-width: 1040px) {

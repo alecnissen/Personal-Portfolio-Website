@@ -101,21 +101,22 @@ function Projects() {
 
          
 
-            {/* <video src={fileUploaderDemo} className="fashion-gems-demo-styles" controls poster={fileUploaderThumbnail}>
-              <source src="movie.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video> */}
+            
 
 
         <div className={`shopping-cart-container ${show ? 'focused' : ''}`}>
             <div className="modal-content">
               <h3>File Uploader</h3>
-              <h3>Not Mobile Responsive</h3>
-              <h3>View a demo recording by clicking the button below</h3>
+              <h3>Full-Stack Project</h3>
+              <h3>View a demo recording by clicking the live button below</h3>
 
               <div className="modal-content-link-container">
                 <a href="https://github.com/alecnissen/File-Uploader-2" target="_blank">
                   <button>Code</button>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=gwKTYj_1Dlg&t=4s" target="_blank">
+                  <button>Live</button>
                 </a>
 
                 
